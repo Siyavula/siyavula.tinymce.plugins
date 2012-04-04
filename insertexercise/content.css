@@ -1,0 +1,28 @@
+/* Styling Exercise boxes. Demo */
+
+div.exercise:before {
+        content: "Exercise";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.exproblem:before {
+    content: "Problem";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.exsolution:before {
+    content: "Solution";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.exercise {
+    background-color: #CDCAF4;
+    border-radius: 5px;
+    padding:5px;
+}
+
