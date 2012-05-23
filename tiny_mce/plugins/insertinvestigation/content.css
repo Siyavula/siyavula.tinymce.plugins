@@ -1,3 +1,5 @@
+/* Styling Exercise boxes. Demo */
+
 /* Styling Investigation boxes. Demo */
 
 div.investigation:before {
@@ -27,9 +29,38 @@ div.investigation-method:before {
     font-size:10pt;
 }
 
+
+div.investigation-results:before {
+    content: "Results: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.investigation-observations:before {
+    content: "Observations: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.investigation-questions:before {
+    content: "Questions: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.investigation-conclusions:before {
+    content: "Conclusions: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+
 div.investigation {
-    background-color: #B0FFA8;
+    background-color: #FFEBD0;
     border-radius: 5px;
     padding:5px;
 }
-

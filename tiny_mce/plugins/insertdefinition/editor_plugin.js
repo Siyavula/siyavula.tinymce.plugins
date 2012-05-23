@@ -9,26 +9,28 @@
  */
 
 (function() {
-	tinymce.create('tinymce.plugins.InsertInvestigation', {
+	tinymce.create('tinymce.plugins.InsertDefinition', {
 		init : function(ed, url) {
 			var t = this;
 
 			t.editor = ed;
 
-			ed.addCommand('mceInsertInvestigation', function() {
-				var str = "<div class='investigation'>\
-                                <span class='title'>Investigation Title </span>\
-                                </div>";
+			ed.addCommand('mceInsertDefinition', function() {
+				var str = "\
+                                <dl class='definition'>\
+                                  <dt>Term here</dt>\
+                                  <dd>Meaning here</dd>\
+                                </dl>";
 
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertinvestigation', {title : 'InsertInvestigation', cmd : 'mceInsertInvestigation'});
-		},
+			ed.addButton('insertdefinition', {title : 'InsertDefinition', cmd : 'mceInsertDefinition'});
+                        },
 
 		getInfo : function() {
 			return {
-				longname : 'Insert Investigation',
+				longname : 'Insert Definition',
 				author : 'Siyavula',
 				authorurl : 'http://www.siyavula.com',
 				infourl : '',
@@ -42,5 +44,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('insertinvestigation', tinymce.plugins.InsertDateTime);
+	tinymce.PluginManager.add('insertdefinition', tinymce.plugins.InsertDefinition);
 })();

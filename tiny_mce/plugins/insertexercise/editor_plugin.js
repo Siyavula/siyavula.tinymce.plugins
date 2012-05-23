@@ -30,7 +30,7 @@
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise',image:"/static/tiny_mce/plugins/insertexercise/exercise.gif"});
+			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise'});
                         },
 
 		getInfo : function() {

@@ -24,7 +24,7 @@
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertkeyconcepts', {title : 'InsertKeyconcepts', cmd : 'mceInsertKeyconcepts',image:"/static/tiny_mce/plugins/insertkeyconcepts/keyconcepts.gif"});
+			ed.addButton('insertkeyconcepts', {title : 'InsertKeyconcepts', cmd : 'mceInsertKeyconcepts'});
                         },
 
 		getInfo : function() {

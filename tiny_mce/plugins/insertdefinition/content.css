@@ -1,0 +1,22 @@
+
+dl.definition:before {
+    content: "Definition";
+    font-weight: bold;
+}
+
+dl.definition dt:before {
+    content: "Term : ";
+    font-weight: bold;
+}
+
+dl.definition dd:before {
+    content: "Meaning : ";
+    font-weight: bold;
+}
+
+dl.definition {
+    border:solid;
+    border-width:1px;
+    padding:5px;
+}
+

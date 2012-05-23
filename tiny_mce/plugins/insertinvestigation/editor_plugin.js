@@ -45,7 +45,7 @@
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertinvestigation', {title : 'InsertInvestigation', cmd : 'mceInsertInvestigation',image:"/static/tiny_mce/plugins/insertinvestigation/investigation.gif"});
+			ed.addButton('insertinvestigation', {title : 'InsertInvestigation', cmd : 'mceInsertInvestigation'});
                         },
 
 		getInfo : function() {

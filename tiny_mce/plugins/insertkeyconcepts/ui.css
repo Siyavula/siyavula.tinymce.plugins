@@ -1,0 +1,24 @@
+/* Custom buttons */
+
+.defaultSkin a.mce_insertkeyconcepts:before {
+    content:"Key Concepts";
+    width:100px;
+    height:20px;
+    text-align:center;
+}
+.defaultSkin a.mce_insertkeyconcepts {
+    width:100px;
+    height:20px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#FEE895;
+    border-width:1px;
+    border-color:gray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10pt;
+}
+
