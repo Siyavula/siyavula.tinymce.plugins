@@ -1,0 +1,11 @@
+/* Styling Exercise boxes. Demo */
+
+div.keyconcept:before {
+        content: "KEY CONCEPTS";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.keyconcept {
+background:#FEE895;
+}

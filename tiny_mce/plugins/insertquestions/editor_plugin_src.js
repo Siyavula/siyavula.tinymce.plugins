@@ -8,6 +8,9 @@
  * Contributing: http://tinymce.moxiecode.com/contributing
  */
 
+
+/* Aim, App, method, Results, Observations, conclusions, questions */
+
 (function() {
 	tinymce.create('tinymce.plugins.InsertExercise', {
 		init : function(ed, url) {
@@ -16,22 +19,13 @@
 			t.editor = ed;
 
 			ed.addCommand('mceInsertExercise', function() {
-				var str = "\
-                                <div class='exercise'>\
-                                <hr/>\
-                                    <div class='exproblem'>\
-                                        <p> Text here ...</p>\
-                                    </div>\
-                                    <div class='exsolution'>\
-                                        <p> Text here ...</p>\
-                                    </div>\
-                                </div><p></p><p></p><p></p>";
+				var str = '<table class="exercise"><tr class="ex_heading"> <td class="ex_heading_type">Exercise</td> <td class="ex_heading_text">Heading text...</td>  </tr><tr class="ex_problem"> <td colspan='2'> Problem text goes here </td> </tr><tr class="ex_solution"> <td colspan='2'> Solution goes here... </td> </tr></table>';
 
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise',image:"/static/tiny_mce/img/exercise.gif"});
-                        },
+			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise'});
+		},
 
 		getInfo : function() {
 			return {
@@ -49,5 +43,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('insertexercise', tinymce.plugins.InsertExercise);
+	tinymce.PluginManager.add('insertexercise', tinymce.plugins.InsertDateTime);
 })();

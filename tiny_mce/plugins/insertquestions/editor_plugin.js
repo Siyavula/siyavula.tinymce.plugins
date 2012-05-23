@@ -9,24 +9,27 @@
  */
 
 (function() {
-	tinymce.create('tinymce.plugins.InsertExercise', {
+	tinymce.create('tinymce.plugins.InsertKeyconcepts', {
 		init : function(ed, url) {
 			var t = this;
 
 			t.editor = ed;
 
-			ed.addCommand('mceInsertExercise', function() {
-				var str = '<table class="exercise"><tr class="ex_heading"> <td class="ex_heading_type">Exercise</td> <td class="ex_heading_text">Heading text...</td>  </tr><tr class="ex_problem"> <td colspan='2'> Problem text goes here </td> </tr><tr class="ex_solution"> <td colspan='2'> Solution goes here... </td> </tr></table>';
+			ed.addCommand('mceInsertKeyconcepts', function() {
+				var str = "\
+                                <div class='keyconcepts'>\
+                                        <p> Text here ...</p>\
+                                </div><p></p><p></p><p></p>";
 
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise'});
-		},
+			ed.addButton('insertkeyconcepts', {title : 'InsertKeyconcepts', cmd : 'mceInsertKeyconcepts',image:"/static/tiny_mce/plugins/insertkeyconcepts/keyconcepts.gif"});
+                        },
 
 		getInfo : function() {
 			return {
-				longname : 'Insert Exercise',
+				longname : 'Insert Keyconcepts',
 				author : 'Siyavula',
 				authorurl : 'http://www.siyavula.com',
 				infourl : '',
@@ -40,5 +43,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('insertexercise', tinymce.plugins.InsertDateTime);
+	tinymce.PluginManager.add('insertkeyconcepts', tinymce.plugins.InsertKeyconcepts);
 })();

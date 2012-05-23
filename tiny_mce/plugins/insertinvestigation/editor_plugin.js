@@ -28,12 +28,24 @@
                                 <div class='investigation-method'>\
                                     <p>Insert Method text here...</p>\
                                 </div>\
+                                <div class='investigation-results'>\
+                                    <p>Insert Method text here...</p>\
+                                </div>\
+                                <div class='investigation-observations'>\
+                                    <p>Insert Method text here...</p>\
+                                </div>\
+                                <div class='investigation-conclusions'>\
+                                    <p>Insert Method text here...</p>\
+                                </div>\
+                                <div class='investigation-questions'>\
+                                    <p>Insert Method text here...</p>\
+                                </div>\
                                 </div><p></p><p></p><p></p>";
 
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertinvestigation', {title : 'InsertInvestigation', cmd : 'mceInsertInvestigation',image:"/static/tiny_mce/img/investigation.ico"});
+			ed.addButton('insertinvestigation', {title : 'InsertInvestigation', cmd : 'mceInsertInvestigation',image:"/static/tiny_mce/plugins/insertinvestigation/investigation.gif"});
                         },
 
 		getInfo : function() {
