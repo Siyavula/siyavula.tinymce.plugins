@@ -6,6 +6,7 @@
 @import url('../../../../plugins/insertchapter/content.css');
 @import url('../../../../plugins/insertsection/content.css');
 @import url('../../../../plugins/insertsubsection/content.css');
+@import url('../../../../plugins/insertactivity/content.css');
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}

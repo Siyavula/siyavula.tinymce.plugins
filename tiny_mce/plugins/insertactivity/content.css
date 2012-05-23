@@ -1,0 +1,37 @@
+/* Styling Exercise boxes. Demo */
+
+/* Styling Investigation boxes. Demo */
+
+div.activity:before {
+        content: "Activity";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.activity-materials:before {
+    content: "Materials needed: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.activity-instructions:before {
+    content: "Instructions: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+div.activity-questions:before {
+    content: "Questions: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
+
+div.activity {
+    background-color: #E0E7D1;
+    border-radius: 5px;
+    padding:5px;
+}
