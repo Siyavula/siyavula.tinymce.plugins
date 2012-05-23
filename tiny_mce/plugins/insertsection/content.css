@@ -1,0 +1,5 @@
+/* Styling Exercise boxes. Demo */
+
+h2.section:before {
+    content:"Section: ";
+}

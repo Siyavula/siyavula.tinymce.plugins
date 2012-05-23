@@ -1,0 +1,5 @@
+/* Styling Exercise boxes. Demo */
+
+h3.subsection:before {
+    content:"Subsection: ";
+}

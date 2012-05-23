@@ -1,0 +1,5 @@
+/* Styling Exercise boxes. Demo */
+
+h1.part:before {
+    content:"Part: ";
+}

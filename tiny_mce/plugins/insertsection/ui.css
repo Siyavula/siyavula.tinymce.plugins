@@ -1,0 +1,23 @@
+/* Custom buttons */
+
+.defaultSkin a.mce_insertsection:before {
+    content:"Section ";
+    width:60px;
+    height:20px;
+    text-align:center;
+}
+.defaultSkin a.mce_insertsection {
+    width:60px;
+    height:20px;
+    text-align:center;
+    vertical-align:middle;
+    border-width:1px;
+    border-color:gray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10pt;
+}
+
