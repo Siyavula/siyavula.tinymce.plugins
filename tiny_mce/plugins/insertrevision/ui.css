@@ -1,19 +1,17 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertquestions:before {
-    content:"Questions";
+.defaultSkin a.mce_insertrevision:before {
+    content:"Revision";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertquestions {
+.defaultSkin a.mce_insertrevision {
     width:80px;
     height:20px;
     text-align:center;
     vertical-align:middle;
-    background-color:white;
-    border-width:1px;
-    border-color:#FCD4C3;
+    background-color:#FDDED0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px; /* future proofing */

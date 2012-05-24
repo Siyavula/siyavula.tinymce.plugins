@@ -1,7 +1,7 @@
-/* Styling Exercise boxes. Demo */
+/* Styling Example boxes. Demo */
 
-div.exercise:before {
-        content: "Exercise";
+div.example:before {
+        content: "Example";
         font-weight: bold;
         font-size:10pt;
 }
@@ -20,7 +20,7 @@ div.exsolution:before {
     font-size:10pt;
 }
 
-div.exercise {
+div.example {
     background-color: #CDCAF4;
     border-radius: 5px;
     padding:5px;

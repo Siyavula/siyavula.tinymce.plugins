@@ -1,4 +1,4 @@
-@import url('../../../../plugins/insertexercise/content.css');
+@import url('../../../../plugins/insertexample/content.css');
 @import url('../../../../plugins/insertinvestigation/content.css');
 @import url('../../../../plugins/insertkeyconcepts/content.css');
 @import url('../../../../plugins/insertdefinition/content.css');
@@ -9,6 +9,7 @@
 @import url('../../../../plugins/insertactivity/content.css');
 @import url('../../../../plugins/insertkeyquestions/content.css');
 @import url('../../../../plugins/insertquestions/content.css');
+@import url('../../../../plugins/insertrevision/content.css');
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}

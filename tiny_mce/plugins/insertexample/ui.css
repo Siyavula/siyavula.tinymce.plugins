@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertexercise:before {
-    content:"Exercise";
+.defaultSkin a.mce_insertexample:before {
+    content:"Example";
     width:60px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertexercise {
+.defaultSkin a.mce_insertexample {
     width:60px;
     height:20px;
     text-align:center;

@@ -1,0 +1,20 @@
+/* Styling Exercise boxes. Demo */
+
+div.revision:before {
+        content: "REVISION";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.revision {
+    border-width:5px;
+    border-color:#FDDED0;
+    background-color:#FDDED0;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}

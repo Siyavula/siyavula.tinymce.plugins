@@ -9,15 +9,15 @@
  */
 
 (function() {
-	tinymce.create('tinymce.plugins.InsertExercise', {
+	tinymce.create('tinymce.plugins.InsertExample', {
 		init : function(ed, url) {
 			var t = this;
 
 			t.editor = ed;
 
-			ed.addCommand('mceInsertExercise', function() {
+			ed.addCommand('mceInsertExample', function() {
 				var str = "\
-                                <div class='exercise'>\
+                                <div class='example'>\
                                 <hr/>\
                                     <div class='exproblem'>\
                                         <p> Text here ...</p>\
@@ -30,12 +30,12 @@
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertexercise', {title : 'InsertExercise', cmd : 'mceInsertExercise'});
+			ed.addButton('insertexample', {title : 'InsertExample', cmd : 'mceInsertExample'});
                         },
 
 		getInfo : function() {
 			return {
-				longname : 'Insert Exercise',
+				longname : 'Insert Example',
 				author : 'Siyavula',
 				authorurl : 'http://www.siyavula.com',
 				infourl : '',
@@ -49,5 +49,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('insertexercise', tinymce.plugins.InsertExercise);
+	tinymce.PluginManager.add('insertexample', tinymce.plugins.InsertExample);
 })();
