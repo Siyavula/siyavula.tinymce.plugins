@@ -1,0 +1,12 @@
+/* Styling Exercise boxes. Demo */
+
+div.keyquestions:before {
+        content: "KEY QUESTIONS";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.keyquestions {
+background:#FEF895;
+padding:5px;
+}

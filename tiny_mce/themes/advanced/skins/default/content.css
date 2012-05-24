@@ -7,6 +7,8 @@
 @import url('../../../../plugins/insertsection/content.css');
 @import url('../../../../plugins/insertsubsection/content.css');
 @import url('../../../../plugins/insertactivity/content.css');
+@import url('../../../../plugins/insertkeyquestions/content.css');
+@import url('../../../../plugins/insertquestions/content.css');
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}

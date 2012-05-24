@@ -9,27 +9,27 @@
  */
 
 (function() {
-	tinymce.create('tinymce.plugins.InsertQuestions', {
+	tinymce.create('tinymce.plugins.InsertKeyquestions', {
 		init : function(ed, url) {
 			var t = this;
 
 			t.editor = ed;
 
-			ed.addCommand('mceInsertQuestions', function() {
+			ed.addCommand('mceInsertKeyquestions', function() {
 				var str = "\
-                                <div class='questions'>\
+                                <div class='keyquestions'>\
                                         <p> Text here ...</p>\
                                 </div><p></p><p></p><p></p>";
 
 				ed.execCommand('mceInsertContent', false, str);
 			});
 
-			ed.addButton('insertquestions', {title : 'InsertQuestions', cmd : 'mceInsertQuestions'});
+			ed.addButton('insertkeyquestions', {title : 'InsertKeyquestions', cmd : 'mceInsertKeyquestions'});
                         },
 
 		getInfo : function() {
 			return {
-				longname : 'Insert Questions',
+				longname : 'Insert Keyquestions',
 				author : 'Siyavula',
 				authorurl : 'http://www.siyavula.com',
 				infourl : '',
@@ -43,5 +43,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('insertquestions', tinymce.plugins.InsertQuestions);
+	tinymce.PluginManager.add('insertkeyquestions', tinymce.plugins.InsertKeyquestions);
 })();
