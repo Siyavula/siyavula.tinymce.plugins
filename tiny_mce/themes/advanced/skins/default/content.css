@@ -10,6 +10,9 @@
 @import url('../../../../plugins/insertkeyquestions/content.css');
 @import url('../../../../plugins/insertquestions/content.css');
 @import url('../../../../plugins/insertrevision/content.css');
+@import url('../../../../plugins/insertnewwords/content.css');
+@import url('../../../../plugins/insertvisit/content.css');
+@import url('../../../../plugins/insertdidyouknow/content.css');
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}

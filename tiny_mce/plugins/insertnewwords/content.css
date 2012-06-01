@@ -1,0 +1,19 @@
+/* Styling Exercise boxes. Demo */
+
+div.newwords:before {
+        content: "NEW WORDS";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.newwords {
+    border-width:5px;
+    border-color:#FCCBBB;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}

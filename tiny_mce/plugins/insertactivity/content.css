@@ -8,6 +8,13 @@ div.activity:before {
         font-size:10pt;
 }
 
+div.activity-reason:before {
+    content: "Reason for doing this activity: ";
+    font-weight: bold;
+    padding-after:10px;
+    font-size:10pt;
+}
+
 div.activity-materials:before {
     content: "Materials needed: ";
     font-weight: bold;

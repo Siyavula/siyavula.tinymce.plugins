@@ -1,0 +1,19 @@
+/* Styling Exercise boxes. Demo */
+
+div.visit:before {
+        content: "VISIT";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.visit {
+    border-width:5px;
+    border-color:#DBEAF9;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}

@@ -17,8 +17,11 @@
 
 			ed.addCommand('mceInsertActivity', function() {
 				var str = "\
-                                <div class='activity'>\
+                                <div class='activity'><div class='activity-title'>...title...</div>\
                                 <hr/>\
+                                <div class='activity-reason'>\
+                                    <p>Insert text here...</p>\
+                                </div>\
                                 <div class='activity-materials'>\
                                     <p>Insert text here...</p>\
                                 </div>\
