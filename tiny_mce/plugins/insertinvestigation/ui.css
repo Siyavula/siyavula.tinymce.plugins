@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertinvestigation:before {
+.mceToolbar a.mce_insertinvestigation:before {
     content:"Investigation";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertinvestigation {
+.mceToolbar a.mce_insertinvestigation {
     width:80px;
     height:20px;
     text-align:center;

@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertsubsection:before {
+.mceToolbar a.mce_insertsubsection:before {
     content:"Subsection";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertsubsection {
+.mceToolbar a.mce_insertsubsection {
     width:80px;
     height:20px;
     text-align:center;

@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertvisit:before {
+.mceToolbar a.mce_insertvisit:before {
     content:"Visit";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertvisit {
+.mceToolbar a.mce_insertvisit {
     width:80px;
     height:20px;
     text-align:center;

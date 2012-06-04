@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertnewwords:before {
+.mceToolbar a.mce_insertnewwords:before {
     content:"New Words";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertnewwords {
+.mceToolbar a.mce_insertnewwords {
     width:80px;
     height:20px;
     text-align:center;

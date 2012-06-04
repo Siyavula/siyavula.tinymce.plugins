@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertkeyconcepts:before {
+.mceToolbar a.mce_insertkeyconcepts:before {
     content:"Key Concepts";
     width:100px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertkeyconcepts {
+.mceToolbar a.mce_insertkeyconcepts {
     width:100px;
     height:20px;
     text-align:center;

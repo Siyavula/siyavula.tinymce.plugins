@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertpart:before {
+.mceToolbar a.mce_insertpart:before {
     content:"Part";
     width:60px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertpart {
+.mceToolbar a.mce_insertpart {
     width:60px;
     height:20px;
     text-align:center;

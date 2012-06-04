@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertdefinition:before {
+.mceToolbar a.mce_insertdefinition:before {
     content:"Definition";
     width:60px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertdefinition {
+.mceToolbar a.mce_insertdefinition {
     width:60px;
     height:20px;
     text-align:center;

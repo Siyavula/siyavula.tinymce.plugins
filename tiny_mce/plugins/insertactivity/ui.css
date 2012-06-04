@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertactivity:before {
+.mceToolbar a.mce_insertactivity:before {
     content:"Activity";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertactivity {
+.mceToolbar a.mce_insertactivity {
     width:80px;
     height:20px;
     text-align:center;

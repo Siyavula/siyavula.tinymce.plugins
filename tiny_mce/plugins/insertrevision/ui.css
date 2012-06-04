@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertrevision:before {
+.mceToolbar a.mce_insertrevision:before {
     content:"Revision";
     width:80px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertrevision {
+.mceToolbar a.mce_insertrevision {
     width:80px;
     height:20px;
     text-align:center;

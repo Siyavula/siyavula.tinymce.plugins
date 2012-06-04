@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertkeyquestions:before {
+.mceToolbar a.mce_insertkeyquestions:before {
     content:"Key Questions";
     width:100px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertkeyquestions {
+.mceToolbar a.mce_insertkeyquestions {
     width:100px;
     height:20px;
     text-align:center;

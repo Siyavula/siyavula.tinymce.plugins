@@ -1,12 +1,12 @@
 /* Custom buttons */
 
-.defaultSkin a.mce_insertdidyouknow:before {
+.mceToolbar a.mce_insertdidyouknow:before {
     content:"Did you know?";
     width:100px;
     height:20px;
     text-align:center;
 }
-.defaultSkin a.mce_insertdidyouknow {
+.mceToolbar a.mce_insertdidyouknow {
     width:100px;
     height:20px;
     text-align:center;
