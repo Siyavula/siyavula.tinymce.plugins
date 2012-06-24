@@ -2,12 +2,12 @@
 
 .mceToolbar a.mce_inserteocexercise:before {
     content:"EOC Exercise";
-    width:120px;
+    width:100px;
     height:20px;
     text-align:center;
 }
 .mceToolbar a.mce_inserteocexercise {
-    width:80px;
+    width:100px;
     height:20px;
     text-align:center;
     vertical-align:middle;
