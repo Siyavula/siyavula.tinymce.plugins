@@ -1,0 +1,19 @@
+/* Styling Exercise boxes. Demo */
+
+div.note:before {
+        content: "Note";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.note {
+    border-width:5px;
+    border-color:#B1D3CA;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}

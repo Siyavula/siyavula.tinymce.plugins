@@ -1,0 +1,19 @@
+/* Styling Exercise boxes. Demo */
+
+div.aside:before {
+        content: "ASIDE";
+        font-weight: bold;
+        font-size:10pt;
+}
+
+div.aside {
+    border-width:5px;
+    border-color:#ABEAF9;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}
