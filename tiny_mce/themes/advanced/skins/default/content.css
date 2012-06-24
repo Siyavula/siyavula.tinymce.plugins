@@ -14,6 +14,8 @@
 @import url('../../../../plugins/insertvisit/content.css');
 @import url('../../../../plugins/insertdidyouknow/content.css');
 @import url('../../../../plugins/insertquestion/content.css');
+@import url('../../../../plugins/inserteocexercise/content.css');
+
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}
