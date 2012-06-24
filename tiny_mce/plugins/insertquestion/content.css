@@ -1,0 +1,21 @@
+
+div.question {
+    border-width:1px;
+    border-color:green;
+    border-style:solid;
+    margin:10px;
+}
+
+div.answer {
+    margin:10px;
+}
+
+div.question:before {
+    content: "Question : ";
+    font-weight:bold;
+}
+
+div.question > div.answer:before {
+    content: "Answer : ";
+    font-weight:bold;
+}

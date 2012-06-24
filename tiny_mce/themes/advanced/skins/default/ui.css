@@ -13,7 +13,7 @@
 @import url('../../../../plugins/insertnewwords/ui.css');
 @import url('../../../../plugins/insertvisit/ui.css');
 @import url('../../../../plugins/insertdidyouknow/ui.css');
-
+@import url('../../../../plugins/insertquestion/ui.css');
 
 /* Reset */
 .defaultSkin table, .defaultSkin tbody, .defaultSkin a, .defaultSkin img, .defaultSkin tr, .defaultSkin div, .defaultSkin td, .defaultSkin iframe, .defaultSkin span, .defaultSkin *, .defaultSkin .mceText {border:0; margin:0; padding:0; background:transparent; white-space:nowrap; text-decoration:none; font-weight:normal; cursor:default; color:#000; vertical-align:baseline; width:auto; border-collapse:separate; text-align:left}
