@@ -1,0 +1,24 @@
+/* Custom buttons */
+
+.mceToolbar a.mce_insertcasestudy:before {
+    content:"Case Study";
+    width:80px;
+    height:20px;
+    text-align:center;
+    color:#EDE8E8;
+}
+.mceToolbar a.mce_insertcasestudy {
+    width:80px;
+    height:20px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#7B3A14;
+    border-width:1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10pt;
+}
+
