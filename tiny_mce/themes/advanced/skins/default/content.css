@@ -23,6 +23,7 @@
 @import url('../../../../plugins/insertproject/content.css');
 @import url('../../../../plugins/insertgroupdiscussion/content.css');
 @import url('../../../../plugins/insertcasestudy/content.css');
+@import url('../../../../plugins/insertteachersguide/content.css');
 
 body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px;}
 body {background:#FFF;}

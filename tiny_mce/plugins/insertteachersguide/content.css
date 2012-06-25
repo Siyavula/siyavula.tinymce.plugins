@@ -1,0 +1,21 @@
+/* Styling Exercise boxes. Demo */
+
+div.teachersguide:before {
+        content: "Teacher's Guide";
+        font-weight: bold;
+        font-size:10pt;
+        color:blue;
+}
+
+div.teachersguide {
+    border-width:5px;
+    border-color:blue;
+    color:blue;
+    border-style:solid;
+    padding:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}
