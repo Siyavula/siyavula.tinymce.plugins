@@ -1,0 +1,24 @@
+/* Custom buttons */
+
+.mceToolbar a.mce_insertsummary:before {
+    content:"Summary";
+    width:80px;
+    height:20px;
+    text-align:center;
+}
+.mceToolbar a.mce_insertsummary {
+    width:80px;
+    height:20px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:white;
+    border-width:1px;
+    border-color:#FFF4C3;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10pt;
+}
+
